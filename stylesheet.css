@@ -1,0 +1,95 @@
+.form {
+    text-align: center;
+}
+.searchBar input[type=text]{
+    border-radius: 200px;
+    border: 0.5px solid rgb(201, 201, 201);
+    padding: 0 16px;
+    height: 45px;
+    width: 560px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    word-wrap: break-word; 
+    margin-top: 1.5%;
+}
+.btn{
+    margin-top: 2%; background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    
+    padding: 0 16px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+}
+.advBtn{
+    background-color: #4d90fe;
+    color: #f8f9fa;
+    border-radius: 0.1px;
+    border: 1px solid #3884ff;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    margin-right: 16px;
+    height: 27px;
+    line-height: 27px;
+    min-width: 54px;
+    outline: 0;
+    padding: 0 8px;
+}
+.otherOptions {
+    padding-top: 10px;
+    padding-right: 10px;
+    text-align: right;
+}
+.otherOptions a {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-inline-end: 5px;
+    display: inline-block;
+    font-size: 13px;
+}
+h2 {
+    padding-top: 2%;
+    padding-bottom: 1%;
+    color: #d93025;
+    font-family: arial,sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    padding-left: 3%;
+    font-weight: lighter;
+}
+h4 {
+    padding-top: 2%;
+    font-family: arial,sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    padding-left: 3%;
+}
+.form2 table{
+    padding-left: 3%;
+    width: 60%;
+}
+.form2 td label{
+    font-family: arial,sans-serif;
+    font-size: 13px;
+}
+.form2 td input[type=text]{
+    width: 94%;
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+}
+.form2 td input[type=submit]{
+    position: relative;
+    float: right;
+}
+.form2 td{
+    padding-bottom: 2%;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="./stylesheet.css">
+    </head>
+    <body>
+        
+        <table width="100%">
+            <tr>
+                <td>
+                    <img src="./resources/googleLogo.png" height="25px" style="padding-left: 1.5%; padding-top: 1.5%;" >
+                </td>
+                <td>
+                    <div class="otherOptions">
+                        <a href="./index.html">Google Search</a> 
+                    </div>
+                </td>
+            </tr>
+        </table>
+        
+        <h2>Advanced Search</h2>
+        <hr style="border-top: 0.5px solid #cccbcb;">
+        <h4>Find Pages with...</h4>
+        <div class="form2">
+            <form action="https://google.com/search" method="GET">
+                <table>
+                    <tr>
+                        <td width="25%">
+                            <label for="all">all these words:</label>
+                        </td>
+                        <td width="75%">
+                            <input type="text" name="as_q">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="exact">this exact word or phrase:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="as_epq">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="any">any of these words:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="as_oq">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="none">none of these words:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="as_eq">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="submit" value="Advanced Search" class="advBtn">
+                        </td>
+                    </tr>
+                </table>
+                
+                
+                
+                
+            </form>
+        </div>
+    </body>
+</html>
